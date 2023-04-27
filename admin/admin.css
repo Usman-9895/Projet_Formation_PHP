@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background: #e3e6e9;
+}
+/*
+nav{
+    background: #134f7c;
+    height: 80px;
+    width: 100%;
+}
+*/
+label.titre a{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover,input[type = "submit"]:hover{
+    background: #78c1f8;
+    transition: .5s;
+}
+
+/*Page admin/index*/
+textarea{
+    height:150px;
+    width: 1000px;
+    border: 2px solid #105e05;
+}
+input[type = "text"]{
+    height:50px;
+    width: 500px;
+    border: 2px solid #105e05;
+}
+input[type = "submit"]{
+    height:50px;
+    width: 1000px;
+    border-radius: 5px;
+    background: #105e05;
+}
+#t1{
+    font-size: 2em;
+    margin-left: 25px;
+    border-bottom: 3px solid #105e05;
+}
+#t2{
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+input[type = "text"],textarea{
+    margin: 10px;
+}
+input[type = "file"]{
+    margin-top: 20px;
+    color: white;
+}
+
+
+/*Page admin/Supprimer*/
+
